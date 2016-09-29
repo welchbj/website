@@ -5,3 +5,11 @@ body {
 img.main {
     max-height: 60vh;
 }
+
+.link-img {
+    transition: transform 0.2s ease-in-out;
+}
+
+.link-img:hover {
+    transform: translate(0px, -20px);
+}
