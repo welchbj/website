@@ -13,3 +13,9 @@ img.main {
 .link-img:hover {
     transform: translate(0px, -20px);
 }
+
+#paper-plane {
+    max-height: 15vh;
+    display: block;
+    margin: auto;
+}

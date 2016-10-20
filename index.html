@@ -10,6 +10,7 @@
     <meta name="keywords" content="brian, welch, brian welch">
     <meta name="robots" content="index, follow">
 
+    <script src="//cdn.jsdelivr.net/vivus/latest/vivus.min.js" type="text/javascript" charset="utf-8"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.4/semantic.min.css" type="text/css" charset="utf-8">
     <link rel="stylesheet" href="site.css" type="text/css" charset="utf-8">
   </head>
@@ -17,9 +18,14 @@
   <body>
     <div class="ui relaxed stackable grid container">
       <div class="centered row">
-          <div class="column">
+        <div class="column">
           <img class="ui centered main image" src="/img/moon.svg">
-          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="column">
+          <object id="paper-plane" type="image/svg+xml" data="/img/paper-plane.svg"></object>
+        </div>
       </div>
       <div class="three column row">
         <div class="column">
@@ -40,4 +46,8 @@
       </div>
     </div>
   </body>
+
+  <script>
+    new Vivus('paper-plane', {duration: 100, type: 'oneByOne'});
+  </script>
 </html>
