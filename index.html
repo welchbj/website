@@ -23,43 +23,33 @@
     </script>
 
     <script src="//cdn.jsdelivr.net/vivus/latest/vivus.min.js" type="text/javascript" charset="utf-8"></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.4/semantic.min.css" type="text/css" charset="utf-8">
+    <link href="https://fonts.googleapis.com/css?family=Reenie+Beanie" rel="stylesheet">
     <link rel="stylesheet" href="site.css" type="text/css" charset="utf-8">
   </head>
 
   <body>
-    <div class="ui relaxed stackable grid container">
-      <div class="centered row">
-        <div class="column">
-          <img class="ui centered main image" src="/img/moon.svg">
-        </div>
+    <div class="flex-container center-column">
+      <object id="paper-plane" type="image/svg+xml" data="/img/paper-plane.svg"></object>
+      <div class="flex-container center-row">
+        <p class="center-text big-font">semper ad meliora</p>
       </div>
-      <div class="row">
-        <div class="column">
-          <object id="paper-plane" type="image/svg+xml" data="/img/paper-plane.svg"></object>
-        </div>
-      </div>
-      <div class="three column row">
-        <div class="column">
-          <a href="mailto:welch18@vt.edu" target="_blank">
-            <img class="ui centered tiny link-img image" src="/img/email.png">
-          </a>
-        </div>
-        <div class="column">
-          <a href="https://github.com/welchbj" target="_blank">
-            <img class="ui centered tiny link-img image" src="/img/github.png">
-          </a>
-        </div>
-        <div class="column">
-          <a href="https://linkedin.com/in/bwelch1" target="_blank">
-            <img class="ui centered tiny link-img image" src="/img/linkedin.png">
-          </a>
-        </div>
+      <div class="flex-container center-row">
+        <a href="mailto:welch18@vt.edu" target="_blank">
+          <img class="link-img" src="/img/email.png">
+        </a>
+        <a href="https://github.com/welchbj" target="_blank">
+          <img class="link-img" src="/img/github.png">
+        </a>
+        <a href="https://linkedin.com/in/bwelch1" target="_blank">
+          <img class="link-img" src="/img/linkedin.png">
+        </a>
       </div>
     </div>
   </body>
 
   <script>
-    new Vivus('paper-plane', {duration: 100, type: 'oneByOne'});
+    window.addEventListener('load', function() {
+      new Vivus('paper-plane', {duration: 100, type: 'oneByOne'});
+    });
   </script>
 </html>
