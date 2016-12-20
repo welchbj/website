@@ -40,10 +40,6 @@ body {
     font-size: 3rem;
 }
 
-img.main {
-    max-height: 75vh;
-}
-
 .link-img {
     transition: transform 0.2s ease-in-out;
     padding: 1em 1em 1em 1em;
