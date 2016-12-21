@@ -51,7 +51,8 @@ body {
 }
 
 #paper-plane {
-    max-height: 15vh;
+    height: 15vh;
+    max-width: 90vw;
     display: block;
     margin: auto;
 }
