@@ -5,8 +5,8 @@ html {
 }
 
 body {    
-    background: #4d00a0; /* fallback */
-    background: linear-gradient(to bottom right, #4d00a0, #A094CC);
+    background: #4D00A0; /* fallback */
+    background: linear-gradient(to bottom right, #4D00A0, #A094CC);
 
     font-family: 'Reenie Beanie', cursive;
     color: #FFFFFF;
