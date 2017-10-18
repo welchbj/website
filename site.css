@@ -15,7 +15,8 @@ body {
 }
 
 ::selection {
-  background: #c6bafc;
+  background: #fff;
+  color: #4D00A0;
 }
 
 .flex-container {
