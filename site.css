@@ -41,6 +41,10 @@ body {
   text-align: center;
 }
 
+.huge-font {
+  font-size: 5rem;
+}
+
 .big-font {
   font-size: 3rem;
 }
